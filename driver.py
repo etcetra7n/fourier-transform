@@ -6,7 +6,7 @@ def f(x):
     x = 2*np.pi*x
     return (np.sin(2*x)+np.sin(4*x)+np.sin(8*x))
 
-fig, ax = plt.subplots(1, 3, figsize=(16, 5), facecolor = "#22272E")
+fig, ax = plt.subplots(1, 3, figsize=(16, 5), facecolor = "#1C2128")
 xd = np.array([])
 yd = np.array([])
 
@@ -58,5 +58,5 @@ ax[2].tick_params(axis='x', colors="#929296") #"#929296"
 ax[2].tick_params(axis='y', colors="#929296")
 ax[2].grid(True, color="#3f4245", linestyle=':', linewidth=1) #"#3f4245"
 
-fig.savefig('f.png')
+fig.savefig('fft_demonstration.png')
 plt.show()
