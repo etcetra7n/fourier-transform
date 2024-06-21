@@ -4,7 +4,7 @@ from fourier import Fourier
 
 def f(x):
     x = 2*np.pi*x
-    return (np.sin(2*x)+np.sin(4*x)+np.sin(8*x))+2.5
+    return (np.sin(2*x)+np.sin(4*x)+np.sin(8*x))
 
 fig, ax = plt.subplots(1, 3, figsize=(16, 5))
 xd = np.array([])
