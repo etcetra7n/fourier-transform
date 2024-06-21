@@ -1,7 +1,7 @@
 # Fourier Transform
 
 This is a demonstration of fourier transform and fourier inverse made in
-python using the `scipy.fft` module
+python using the `scipy.fft` module (for educational purpose)
 
 ![Fourier transform demonstration](fft_demonstration.png "Fourier transform demonstration")
 
