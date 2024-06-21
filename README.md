@@ -6,6 +6,7 @@ python using the `scipy.fft` module (for educational purpose)
 ![Fourier transform demonstration](fft_demonstration.png "Fourier transform demonstration")
 
 This demonstraion uses combination of 3 sine waves of frequency 2Hz, 4Hz and 8Hz.
+
 You may play with the `driver.py` file to try this with other frequencies
 
 ```py
