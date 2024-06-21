@@ -6,7 +6,7 @@ def f(x):
     x = 2*np.pi*x
     return (np.sin(2*x)+np.sin(4*x)+np.sin(8*x))
 
-fig, ax = plt.subplots(1, 3, figsize=(16, 5), facecolor = "#1C2128")
+fig, ax = plt.subplots(1, 3, figsize=(16, 5), facecolor = "#2D333B")
 xd = np.array([])
 yd = np.array([])
 
