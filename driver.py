@@ -28,7 +28,7 @@ ax[1].grid() #"#3f4245"
 ix, iy = Fourier.inverse(y, 0, 10, 0.01)
 ax[2].plot(ix[:100], iy[:100])
 ax[2].set(xlabel='F(x)', ylabel='F\'(F(x))')
-ax[2].set_title('Fourier Inverse', color="#bdc1c6")
+ax[2].set_title('Fourier Inverse')
 ax[2].grid() #"#3f4245"
 
 fig.savefig('fft_demonstration.png')
